@@ -9,8 +9,11 @@ This repository does not treat absence as self-explanatory proof. Instead, it ma
 ## Data Provenance & Fractional Data Collection
 
 *   **Primary Empirical Source:** [The Metropolitan Museum of Art Open Access Data](https://github.com/metmuseum/openaccess) (`MetObjects.csv`), distributed under a CC0 1.0 Universal designation.
+
 *   **Full Collection Scope:** 484,956 objects parsed.
+
 *   **Target Andean Subset:** 2,108 objects isolated via explicit cultural filter hooks (*Chavín, Paracas, Nasca, Moche, Tiwanaku, Wari, Lambayeque/Sicán, Chimú, Chancay, Inca*).
+
 *   **Temporal and Spatial Baseline Data:** This pipeline queries the live data repository streaming directly from the museum's distribution endpoint. Because curatorial teams actively update records, this network represents a diagnostic repository snapshot captured in **July 2026**.
 
 ---
