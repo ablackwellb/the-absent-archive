@@ -83,10 +83,13 @@ This is a single institution's collection, not the Andean world entire. The Met'
 ```bash
 pip install -r requirements.txt
 jupyter notebook
+```
 
 [Open MET.ipynb](MET.ipynb) and run all cells, or execute it headlessly with:
 
+```
 jupyter nbconvert --to notebook --execute MET.ipynb --output MET.executed.ipynb
+```
 
 ---
 
