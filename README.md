@@ -24,13 +24,12 @@ To test whether this zero-count reflects a simple cataloging miss, a keyword lim
 
 | Audit Phase | Strategy Type | Target Filter Parameters & Regex | Scope Evaluated | Outcome & Metric Verified |
 | :--- | :--- | :--- | :--- | :--- |
-| **Phase 1: Direct** | Explicit Search | `(quipu\|khipu\|quipo)` | 484,956 Objects | **0 Matches Found** |
-| **Phase 2: Archaic** | Synonym Search | `(knot-record\|knot record\|knotted cord\|knotted string\|quipucamayoc\|khipukamayug\|accounting device\|peruvian thread\|talk knots\|talking knot\|assembled cords)` | 484,956 Objects | **0 Hits** |
-| **Phase 3: Material** | Manual Review Sweep | `(Fiber/textile objects in quipu-forming materials)` | 422 Andean textiles | **Reviewed; no misfiled cord-records identified** |
-
+| **Phase 1: Direct** | Explicit Search | <code>(?i)\b(quipu&#124;khipu&#124;quipo)\b</code> | 484,956 objects | **0 matches found** |
+| **Phase 2: Archaic** | Synonym Search | <code>(?i)(knot-record&#124;knot record&#124;knotted cord&#124;knotted string&#124;quipucamayoc&#124;khipukamayug&#124;accounting device&#124;peruvian thread&#124;talk knots&#124;talking knot&#124;assembled cords)</code> | 484,956 objects | **0 matches found** |
+| **Phase 3: Material** | Material-form Review Sweep | Fiber/textile objects in quipu-forming materials | 422 Andean textile/fiber records | **Reviewed; None Identified** |
 
 ### Archival Data Sparseness Analysis
-The diagnostic audit may expose systematic metadata fragmentation downstream from cultural racketeering, illicit antiquities trafficking, and the resulting separation of unique Andean fiber records from their stratigraphic contexts:
+The diagnostic audit may expose fragmentation consistent with the separation of artifacts from their stratigraphic contexts:
 *   **Temporal Sparseness (`Period`):** **100% missing** (entirely unrecorded) across all 2,108 targeted objects.
 *   **Spatial Sparseness (`Region`):** Populated for fewer than 10% of the target subset (only 201 objects).
 
