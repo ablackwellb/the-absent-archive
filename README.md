@@ -24,9 +24,9 @@ To test whether this zero-count reflects a simple cataloging miss, a keyword lim
 
 | Audit Phase | Strategy Type | Target Filter Parameters & Regex | Scope Evaluated | Outcome & Metric Verified |
 | :--- | :--- | :--- | :--- | :--- |
-| **Phase 1: Direct** | Explicit Search | `\b(quipu\|khipu\|quipo)\b` | 484,956 Objects | **0 Matches Found** |
-| **Phase 2: Archaic** | Synonym Search | `\b(knot-record\|knot record\|knotted cord\|knotted string\|quipucamayoc\|khipukamayug\|accounting device\|peruvian thread\|talk knots\|talking knot\|assembled cords)\b` | 484,956 Objects | **0 Hits** |
-| **Phase 3: Material** | Manual Review Sweep | `\b(Fiber/textile objects in quipu-forming materials)\b` | 422 Andean textiles | **Reviewed; no misfiled cord-records identified** |
+| **Phase 1: Direct** | Explicit Search | `\b(quipu\|khipu\|quipo)` | 484,956 Objects | **0 Matches Found** |
+| **Phase 2: Archaic** | Synonym Search | `\b(knot-record\|knot record\|knotted cord\|knotted string\|quipucamayoc\|khipukamayug\|accounting device\|peruvian thread\|talk knots\|talking knot\|assembled cords)` | 484,956 Objects | **0 Hits** |
+| **Phase 3: Material** | Manual Review Sweep | `\b(Fiber/textile objects in quipu-forming materials)` | 422 Andean textiles | **Reviewed; no misfiled cord-records identified** |
 
 
 ### Archival Data Sparseness Analysis
